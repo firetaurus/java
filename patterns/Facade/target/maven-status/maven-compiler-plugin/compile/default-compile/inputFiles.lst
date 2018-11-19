@@ -1,0 +1,11 @@
+/home/aldus/maven-workspace/Facade/src/main/java/car/engine/FuelInjector.java
+/home/aldus/maven-workspace/Facade/src/main/java/car/motion/Main.java
+/home/aldus/maven-workspace/Facade/src/main/java/car/engine/Starter.java
+/home/aldus/maven-workspace/Facade/src/main/java/car/engine/CatalyticConverter.java
+/home/aldus/maven-workspace/Facade/src/main/java/car/engine/TemperatureSensor.java
+/home/aldus/maven-workspace/Facade/src/main/java/car/engine/CoolingController.java
+/home/aldus/maven-workspace/Facade/src/main/java/car/engine/FuelPump.java
+/home/aldus/maven-workspace/Facade/src/main/java/car/engine/AirFlowController.java
+/home/aldus/maven-workspace/Facade/src/main/java/car/engine/AirFlowMeter.java
+/home/aldus/maven-workspace/Facade/src/main/java/car/engine/facade/CarEngineFacade.java
+/home/aldus/maven-workspace/Facade/src/main/java/car/engine/Radiator.java

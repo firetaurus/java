@@ -1,0 +1,4 @@
+proxy/ExpensiveObject.class
+proxy/Client.class
+proxy/ExpensiveObjectProxy.class
+proxy/ExpensiveObjectImpl.class
