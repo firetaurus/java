@@ -1,2 +1,2 @@
-# java
-java sample and pet projects
+# Java
+## Java sample and pet projects
