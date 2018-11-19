@@ -27,8 +27,26 @@ public class ComparatorTest {
             }
 
         });
-        
+
         System.err.println("=== Sorted Asc SurName ===");
+        for (Person person : personList) {
+            person.printName();
+        }
+
+        // Use Lambda instead
+        
+        //Print Asc
+        System.out.println("=== Sorted Asc SurName ===");
+        Collections.sort(personList, (Person p1, Person p2) -> p1.getSurName().compareTo(p2.getSurName()));
+
+        for (Person person : personList) {
+            person.printName();
+        }
+
+        //Print Desc
+        System.out.println("=== Sorted Desc SurName ===");
+        Collections.sort(personList, (p1, p2) -> p2.getSurName().compareTo(p1.getSurName()));
+
         for (Person person : personList) {
             person.printName();
         }
