@@ -1,8 +1,3 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
 package com.acme.lambda;
 
 import java.util.Collections;
@@ -34,7 +29,6 @@ public class ComparatorTest {
         }
 
         // Use Lambda instead
-        
         //Print Asc
         System.out.println("=== Sorted Asc SurName ===");
         Collections.sort(personList, (Person p1, Person p2) -> p1.getSurName().compareTo(p2.getSurName()));
