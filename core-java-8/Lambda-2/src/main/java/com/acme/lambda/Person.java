@@ -99,6 +99,22 @@ public class Person {
         return age;
     }
 
+    public String getPhone() {
+        return phone;
+    }
+    
+    public Gender getGender(){
+        return gender;
+    }
+    
+    public String getEmail(){
+        return eMail;
+    }
+    
+    public String getAddress(){
+        return address;
+    }
+
     public void print() {
         System.out.println("\nName: " + givenName + " " + surName + "\n"
                 + "Age: " + age + "\n"
@@ -108,8 +124,8 @@ public class Person {
                 + "Address: " + address + "\n"
         );
     }
-    
-    public void printName(){
+
+    public void printName() {
         System.out.println(""
                 + "Name: " + givenName + " " + surName);
     }
@@ -118,54 +134,54 @@ public class Person {
     public String toString() {
         return "Person{" + "givenName=" + givenName + ", surName=" + surName + ", age=" + age + ", gender=" + gender + ", eMail=" + eMail + ", phone=" + phone + ", address=" + address + '}';
     }
-    
-    public static List<Person> createShortList(){
+
+    public static List<Person> createShortList() {
         List<Person> people = new ArrayList<>();
-        
+
         people.add(
-        new Person.Builder()
-            .givenName("Bob")
-            .surName("Baker")
-            .age(21)
-        .gender(Gender.MALE)
-        .email("bob.baker@example.com")
-        .phoneNumber("201-121-4678")
-        .address("44 4th St, Smallville, KS 12333")
-        .build());
-        
+                new Person.Builder()
+                        .givenName("Bob")
+                        .surName("Baker")
+                        .age(21)
+                        .gender(Gender.MALE)
+                        .email("bob.baker@example.com")
+                        .phoneNumber("201-121-4678")
+                        .address("44 4th St, Smallville, KS 12333")
+                        .build());
+
         people.add(
-        new Person.Builder()
-            .givenName("Joe")
-            .surName("Bailey")
-            .age(67)
-        .gender(Gender.MALE)
-        .email("joebob.bailey@example.com")
-        .phoneNumber("111-121-1111")
-        .address("11 1th St, Town, CA 12111")
-        .build());
-        
+                new Person.Builder()
+                        .givenName("Joe")
+                        .surName("Bailey")
+                        .age(67)
+                        .gender(Gender.MALE)
+                        .email("joebob.bailey@example.com")
+                        .phoneNumber("111-121-1111")
+                        .address("11 1th St, Town, CA 12111")
+                        .build());
+
         people.add(
-        new Person.Builder()
-            .givenName("Jane")
-            .surName("Doe")
-            .age(25)
-        .gender(Gender.FEMALE)
-        .email("jane.doe@example.com")
-        .phoneNumber("201-121-1111")
-        .address("33 3th St, Smalltown, KS 12333")
-        .build());
-        
+                new Person.Builder()
+                        .givenName("Jane")
+                        .surName("Doe")
+                        .age(25)
+                        .gender(Gender.FEMALE)
+                        .email("jane.doe@example.com")
+                        .phoneNumber("201-121-1111")
+                        .address("33 3th St, Smalltown, KS 12333")
+                        .build());
+
         people.add(
-        new Person.Builder()
-            .givenName("Silvia")
-            .surName("Smith")
-            .age(45)
-        .gender(Gender.FEMALE)
-        .email("silvia.smith@example.com")
-        .phoneNumber("201-422-3568")
-        .address("25 2th St, California, CA 25333")
-        .build());
-        
+                new Person.Builder()
+                        .givenName("Silvia")
+                        .surName("Smith")
+                        .age(45)
+                        .gender(Gender.FEMALE)
+                        .email("silvia.smith@example.com")
+                        .phoneNumber("201-422-3568")
+                        .address("25 2th St, California, CA 25333")
+                        .build());
+
         return people;
     }
 }
