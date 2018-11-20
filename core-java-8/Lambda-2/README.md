@@ -8,16 +8,13 @@ In this example, our message needs to get out to three different groups in the U
     Draftees: Male persons between the ages of 18 and 25
     Pilots (specifically commercial pilots): Persons between the ages of 23 and 65
 
-The actual robot that does all this work has not yet arrived at our place of business. Instead of calling, mailing or emailing, a message is printed to the console. The message contains a person's name, age, and information specific to the target medium (for example, email address when emailing or phone number when calling).
+The actual robo that does all this work has not yet arrived at our place of business. Instead of calling, mailing or emailing, a message is printed to the console. The message contains a person's name, age, and information specific to the target medium (for example, email address when emailing or phone number when calling).With a Person class and search criteria
 
-With a Person class and search criteria defined, you can write a RoboContact class. One possible solution defines a method for each use case
+Class creation 
 
-As you can see from the names (callDrivers, emailDraftees, and mailPilots) the methods describe the kind of behavior that is taking place. The search criteria is clearly conveyed and an appropriate call is made to each robo action. However, this design has some negatives aspects:
-
-    The DRY principle is not followed.
-        Each method repeats a looping mechanism.
-        The selection criteria must be rewritten for each method
-    A large number of methods are required to implement each use case.
-    The code is inflexible. If the search criteria changed, it would require a number of code changes for an update. Thus, the code is not very maintainable.
-
-
++ Person.java 
++ Gender.java
++ RoboCallMethods.java
++ RoboCallMethods2.java
++ Test Interface.java
++ RoboContactsAnon.java
