@@ -20,4 +20,6 @@ Class creation order
 + Test Interface.java
 + RoboContactsAnon.java
 + RoboCallTest03.java
-
++ Predicate.java
++ RoboContactsLambda.java
++ RoboCallTest04.java
