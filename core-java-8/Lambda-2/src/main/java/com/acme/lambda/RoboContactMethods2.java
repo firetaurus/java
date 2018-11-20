@@ -21,7 +21,7 @@ public class RoboContactMethods2 {
         }
     }
 
-    public void emailDraftee(List<Person> pl) {
+    public void emailDraftees(List<Person> pl) {
         for (Person p : pl) {
             if (isDraftee(p)) {
                 roboEmail(p);

@@ -10,11 +10,14 @@ In this example, our message needs to get out to three different groups in the U
 
 The actual robo that does all this work has not yet arrived at our place of business. Instead of calling, mailing or emailing, a message is printed to the console. The message contains a person's name, age, and information specific to the target medium (for example, email address when emailing or phone number when calling).With a Person class and search criteria
 
-Class creation 
-
+Class creation order
 + Person.java 
 + Gender.java
 + RoboCallMethods.java
++ RoboCallTest01.java
 + RoboCallMethods2.java
++ RoboCallTest02.java
 + Test Interface.java
 + RoboContactsAnon.java
++ RoboCallTest03.java
+
